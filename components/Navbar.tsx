@@ -1,4 +1,5 @@
 'use client';
+
 import Link from "next/link";
 import Image from "next/image";
 import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
@@ -12,8 +13,8 @@ const Navbar = () => {
                     <Image
                         src="/images/logo.svg"
                         alt="logo"
-                        width={46}
-                        height={44}
+                        width={56}
+                        height={54}
                     />
                 </div>
             </Link>
